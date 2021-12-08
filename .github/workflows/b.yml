@@ -12,7 +12,7 @@
 #
 name: B
 
-on: {}
+on: []
 
 jobs:
   job-b:

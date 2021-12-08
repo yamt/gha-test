@@ -13,8 +13,6 @@
 name: B
 
 on:
-  pull_request:
-  push:
 
 jobs:
   job-b:

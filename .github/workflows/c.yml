@@ -16,7 +16,7 @@ on:
   workflow_run:
     workflows: ["A"]
     types:
-      complete
+      completed
 
 jobs:
   job-c:

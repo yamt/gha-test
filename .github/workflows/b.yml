@@ -12,7 +12,8 @@
 #
 name: B
 
-on: []
+on:
+  workflow_call:
 
 jobs:
   job-b:

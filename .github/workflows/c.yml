@@ -14,7 +14,7 @@ name: C
 
 on:
   workflow_run:
-    workflows: [a]
+    workflows: ["A"]
     types:
       complete
 

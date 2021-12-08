@@ -25,3 +25,5 @@ jobs:
         run: |
           v=${RANDOM:-$(date +%s)}
           test $((v % 2)) -ne 0
+  call-b:
+    uses: yamt/gha-test/.github/workflows/b.yml

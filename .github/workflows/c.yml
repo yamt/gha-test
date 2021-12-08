@@ -13,8 +13,10 @@
 name: C
 
 on:
-  pull_request:
-  push:
+  workflow_run:
+    workflows: [a]
+    types:
+      complete
 
 jobs:
   job-c:
